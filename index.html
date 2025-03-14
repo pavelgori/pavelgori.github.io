@@ -11,5 +11,16 @@
 </head>
 <body>
   <p> Просто тест</p>
+  <button id="init_sub">Подписаться на уведомления</button>
+  <script>
+	  document.getElementById('init_sub').addEventListener('click', function() {
+      try {
+          const akPush = new AKPush(); akPush.initSubscription()
+          }
+      catch (e) {
+        console.log(e);
+      }
+    });
+  </script>
 </body>
 </html>

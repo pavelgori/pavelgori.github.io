@@ -1,0 +1,5 @@
+{
+  "permissions": [ "activeTab" ],
+  "name": "https://altcraft.com/ru",
+  "display": "standalone"
+}
